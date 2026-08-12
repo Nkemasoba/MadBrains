@@ -2,8 +2,9 @@
 import { Home } from "lucide-react";
 import { Building2 } from "lucide-react";
 import { Users } from "lucide-react";
-
-
+import modern from "../assets/modern.jpg";
+import luxury from "../assets/luxury.jpg";
+import cozy from "../assets/cozy.jpg";
 
 
 export const navItems = [
@@ -17,8 +18,8 @@ export const navItems = [
 
 export const preferredListings= [
   {
-    image: "John Doe",
-     title: "Modern Villa",
+    image: modern,
+    title: "Modern Villa",
     location: "Miami, Florida",
     price: "$2,450,000",
     beds:"4",
@@ -27,8 +28,7 @@ export const preferredListings= [
 
   },
   {
-  
-    image: "John Doe",
+    image: cozy,
     title: "Beachfront Condo",
     location: "Austin, Texas",
     price: "$1,250,000",
@@ -37,8 +37,7 @@ export const preferredListings= [
     sqft:"2,100",
   },
   {  
-    
-    image: "John Doe",
+    image: luxury,
     title: "Luxury Apartment",
     location: "New York, USA",
     price: "$3,150,000",
