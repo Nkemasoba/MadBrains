@@ -4,8 +4,6 @@ import { Building2 } from "lucide-react";
 import { Users } from "lucide-react";
 
 
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
 
 
 export const navItems = [
@@ -17,30 +15,36 @@ export const navItems = [
   { label: "About Us", href: "#" },
 ];
 
-export const testimonials = [
+export const preferredListing= [
   {
     image: "John Doe",
+     title: "Modern Villa",
     location: "Miami, Florida",
     price: "$2,450,000",
     beds:"4",
     baths:"3",
-    sqrt:"3,200",
+    sqft:"3,200",
 
   },
   {
-     image: "John Doe",
-    location: "Miami, Florida",
-    price: "$2,450,000",
-    beds:"4",
-    baths:"3",
-    sqrt:"3,200",
+  
+    image: "John Doe",
+    title: "Beachfront Condo",
+    location: "Austin, Texas",
+    price: "$1,250,000",
+    beds:"3",
+    baths:"2",
+    sqft:"2,100",
   },
-  {  image: "John Doe",
-    location: "Miami, Florida",
-    price: "$2,450,000",
-    beds:"4",
-    baths:"3",
-    sqrt:"3,200",
+  {  
+    
+    image: "John Doe",
+    title: "Luxury Apartment",
+    location: "New York, USA",
+    price: "$3,150,000",
+    beds:"5",
+    baths:"4",
+    sqft:"4,000",
   },
 
 ];
