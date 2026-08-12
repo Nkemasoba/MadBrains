@@ -15,7 +15,7 @@ export const navItems = [
   { label: "About Us", href: "#" },
 ];
 
-export const preferredListing= [
+export const preferredListings= [
   {
     image: "John Doe",
      title: "Modern Villa",
